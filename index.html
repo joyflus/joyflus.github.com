@@ -5,11 +5,28 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>joyflus</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="stylesheet" href="css/normalize.css">
+        <style>
+            @font-face {
+                font-family: 'Share-TechMono';
+                src: url('/public/font/share-techmono.eot');
+                src: url('/public/font/share-techmono.eot?#iefix') format('embedded-opentype'),
+                url('/public/font/share-techmono.woff') format('woff'),
+                url('/public/font/share-techmono.ttf') format('truetype'),
+                url('/public/font/share-techmono.svg#Share-TechMono') format('svg');
+            }
+            html, body{margin:0;padding:0;height:100%;}
+            body{font:normal 200%/1.6 'Share-TechMono', sans-serif;}
+            #wrap{display:table;width:100%;height:100%;}
+            #header{display:table-cell;padding:20px;text-align:center;vertical-align:middle;}
+            #header img{width:400px;max-width:70%;}
+        </style>
     </head>
     <body>
-        <h1>joyflus</h1>
-        <p>We are doing projects that make your ordinary life precious and valuable.</p>
+        <div id="wrap">
+            <div id="header">
+                <h1><img src="/public/img/logo_joyflus.png" alt="joyflus"></h1>
+                <p>We are doing projects that make your ordinary life precious and valuable.</p>
+            </div>
+        </div>
     </body>
 </html>
